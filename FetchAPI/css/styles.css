@@ -1,0 +1,41 @@
+
+h1{ 
+    font-size: 50px;
+    font-style: italic;  
+    color: #4416c4;
+    text-align: star
+
+    
+}
+h2{
+    font-size: 45px;
+    text-shadow: 7px 4px 5px blue;
+    justify-content: center;
+}
+p{
+   font-weight:bolder;
+   text-align:center;
+   text-decoration: underline;
+   justify-content: center;
+}
+label{
+    font-family: Times New Roman;
+    color:black;
+    font-size: large;
+
+}
+ input.btn{
+    color: rgb(238, 11, 11);
+    font-size: larger;
+    background-color: rgb(200, 220, 20);
+    cursor:wait
+ }
+ input.info{
+    cursor:cell;
+ }
+main{
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

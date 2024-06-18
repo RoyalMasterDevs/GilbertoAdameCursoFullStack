@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main id="contenido" class="contenido">
+        <h1>Letras de Canciones</h1>
+        <div class="contenedor">
+                <div id="buscar" class="buscar">
+                        <h2>Búsqueda</h2>
+                        <p>Busca por artista y nombre:</p>
+                        <p><span> * </span>Obligatorio</p>
+                        <form action="#" id="formulario-buscar">
+                            <div class="input">
+                                <label for="artista">Artista: <span>*</span></label>
+                                <input type="text" id="artista" placeholder="Artista" class="info">
+                            </div>
+                            <div class="input">
+                                <label for="cancion">Canción: <span>*</span></label>
+                                <input type="text" id="cancion" placeholder="Nombre Canción" class="info">
+                            </div>
+
+                            <div class="input enviar">
+                                <input id="btn" type="submit" value="Buscar" class="btn">
+                            </div>
+                        </form>
+                </div>
+                
+                <div class="letra-resultado">
+                        <h2></h2>
+                        <div id="resultado"></div>
+                </div>
+                <div id="mensajes"></div>
+        </div>
+</main>
+<script src="js/app.js" type="module"></script> 
+
+</body>
+</html>
+
